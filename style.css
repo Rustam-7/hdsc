@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    margin: 0px  auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #121214;
+height: 71px;
+}
+.ll{
+    display: flex;
+    gap: 50px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #A6A8AD;
+
+}
+header  button{
+    width: 95px;
+    height: 30px;
+    border-radius: 20px;
+}
+.tt{
+    background-image: url(./brat.png);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    color: white;
+    align-items: center;
+    display: flex;
+
+    
+}
+.tt h1{
+    font-size: 50px;
+    width: 700px;
+ 
+}
+.tt p {
+    font-size: 20px;
+    width: 400px;
+}
+.tt  button{
+    width: 125px ;
+height: 56px ;
+
+border-radius: 8px;
+background: #0033FF;
+color: white;
+}
+.cardk{
+    color: white;
+    display: flex;
+align-items: center;
+}
+.var{
+    background-color: #121214;
+}
+.ong{
+  margin-top: 20px;
+}
+.ong button{
+    width: 159px ;
+height: 36px;
+top: 1198px;
+left: 48px;
+border-radius: 8px;
+background: #0033FF;
+
+
+}
+.card{
+    width: 361px;
+height: 361px;
+background-color: white;
+border-radius: 8px;
+text-align: center;
+
+
+}
+.ss{
+    display: flex;
+    gap: 50px;
+    background-color: #121214;
+justify-content: center;
+margin-top: 50px;
+}
+body{
+    background-color: #121214;
+}
+footer{
+    display: flex;
+    gap: 100px
+    ;
+    background: #344346;
+align-items: center;
+    height: 71px;
+}
+footer p{
+    color: #A6A8AD;
+
+}
